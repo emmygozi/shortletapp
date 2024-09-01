@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "moonlit-state-434311-c8",
+  "private_key_id": "bdc6af6e7978b9cb984d57967419fc115645c3f1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+NgIY1SVabgIl\nwg1B2sCZDjqnnEk4spUEdZseyH2v+Wxjfx0S8lMfhUIHwympT67J9OUbZT4F5+T1\n+dbP9dpsl1nP8pzG3dHZa0B71lKWY73ut7xTtVlhILNzWbsqddJ9Lb4JhO+O1yZ6\nV0E17vQM1Zw7m3FECD52sJlvdF2tQQE7YpB7iT8gTsMh8et6kvPYC/kIHdSssE4h\n5C1p1EsaIKqhMSbIzpugNKUAtUTrbAODsC3J+bWnt9ePnrLHU7RFw0XFb7jsqsZj\nnsG8yw8LMDYxnhQSaZTR/rHf/ZUE3v/okaHmYaf8KdEEdaEE2DDWvvy6UMXa/l60\npzer3BSTAgMBAAECggEAALtVy0N2qbm79GF/8J+4SoCWC5UqviYIIt5Bfqefm6HX\nfZOR4kPX3cH6a7iw5L26I1rmxjY1GfIMckEDrZ69uEAqJcH+H529QM6dfdPxH8xT\nxUUTKEY4VfFTMp16KSDbttn5REKCRKF7RRT02t6HzuZurwpsUhCvHvgtGIqs3dpu\nNHKRBFBI9e2AufDP5P5f4JrXOrsvfWPBRzRh6q3BcSRs2rKdJxJvagVQPTIdgiJ2\nGqhifBU8E2wugEOm2s6M28Cx5m0ADxgVdTXqqXLjRCWShByjLk57KIa+xDQWntNm\n+Gl9kl3lW6KyO1MSlAMsfbGvchAOcajB3isPTnN9YQKBgQDgkx+E7UdjyL/SWSnU\n6VJnO3i55oFFLVUCKv4RBGVjQiXOVRfiVvS2sJAh+e1K9rTZOBlLUJY9763m/7/U\nsLvDvzDeHqALfd5KqwjD+9n9U+v5Yqhri0IPIvITj3RkCs4ZBKpsSP/axAMvV4dX\nxJ3e/JzoFQSNvEi5pwb/VjyjWQKBgQDY0+H7OqAj0vVvQD9jY33wVqr4fg9FrIcF\nz9kxyp9iQu2Y0mRrNgbAmRL8wYOSi0lm5DSomVoZxqtAqMKn4KPsBXfz2TSVYAhv\n2OZDtimbsuU0vFMcQ/Gkvtnkj25cuTJpcqpOQ1rFTTcC/cfwBKR8kAmjdGPv+z07\nd1yohJpVywKBgGdN5irch4F0QCD/2QlSxxArwE4rpX1v6/HSWwry7byqGf//DryU\naX98WuD2OdzI/coKT0Bg8qvNDD79mH27SrQxx8X1aoO+w7mvUZntyYoJx7vxUS4f\nYiTaW2b6D31RpxrFFaw4LFGy5xApAF40WLbRl0//Exgr63xTRBnCzqQJAoGBALpC\nubvBDtP3YtMg09MjIoqVSOWSFLh7jrnVZPS65NPaPpSrF4xpqr9EP+VUrxvx/yoe\nG4ZBxf6ihXZUAnOILAiSYgrdqagwCM9b+eJs161irjbxGEwNqcUmFbOb6uhIRyAC\nWn5EqfMXc4xkSZ7Lvikq6ry5PShoIJ+216gD0TilAoGAH6NlrS3LIKhUePRFiDnA\nuHHt9BnKN78FkPHwboOzf6rsmzgZUjrgbAudcSny32M5FV2315mZ4Wbp3heBPtOr\nL/EN/v+QFHci4rD8PJllOVETDe4S1ufbq1iMmjlzpZ83YRpoEoxyAa4P3jNjv3ds\nNhB7nACW7CPXWVQEbv+jMc8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform-shorlet-app@moonlit-state-434311-c8.iam.gserviceaccount.com",
+  "client_id": "108942876290017608734",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-shorlet-app%40moonlit-state-434311-c8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

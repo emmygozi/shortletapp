@@ -1,2 +1,2 @@
-# shortletapp
-Shortlet.app
+# Shortletapp
+

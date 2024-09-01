@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "helm-manifest-shortletapp.fullname" . }}
+  namespace: {{ .Values.image.namespace }}
+  labels:
+    {{- include "helm-manifest-shortletapp.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    {{- include "helm-manifest-shortletapp.selectorLabels" . | nindent 4 }}
