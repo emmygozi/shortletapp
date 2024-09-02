@@ -106,6 +106,7 @@ jobs:
         shell: bash
         env:
           TF_VAR_project_id: ${{ secrets.PROJECT_ID }}
+          TF_VAR_notification_email: ${{ secrets.EMAIL }}
         run: |
           ls
           terraform init
@@ -115,6 +116,9 @@ jobs:
         id: plan
         working-directory: GKE_IAC
         shell: bash
+        env:
+          TF_VAR_project_id: ${{ secrets.PROJECT_ID }}
+          TF_VAR_notification_email: ${{ secrets.EMAIL }}
         run: |
           echo 'plan<<EOF' >> $GITHUB_OUTPUT
           terraform plan -no-color -out=tfplan >> $GITHUB_OUTPUT
@@ -144,5 +148,8 @@ jobs:
         id: approve
         working-directory: GKE_IAC
         shell: bash
+        env:
+          TF_VAR_project_id: ${{ secrets.PROJECT_ID }}
+          TF_VAR_notification_email: ${{ secrets.EMAIL }}
         run: |
           terraform apply -auto-approve

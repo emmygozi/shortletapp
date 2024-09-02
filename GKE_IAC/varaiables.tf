@@ -1,9 +1,7 @@
 # variables.tf
-variable "project_id" {
-  type        = string
-  description = "Shortlet app"
-  default = "moonlit-state-434311-c8"
-}
+variable "project_id" {}
+
+variable "notification_email" {}
 
 variable "gke_name" {
   type        = string
