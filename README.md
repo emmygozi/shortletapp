@@ -6,6 +6,17 @@ This repo contains:
 - Helm Chart located at `helm-chart` folder
 - Policy Script found at `policy/policy.rego`
 
+
+## API
+
+API can be found at:
+
+```
+
+http://34.16.124.117/api/v1/current-time
+
+```
+
 ## Getting started
 
 Clone the project and `cd` into the `GKE_IAC` to run terraform commands.
