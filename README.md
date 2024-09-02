@@ -48,6 +48,22 @@ Install `Docker` as shown above
 Install `Terraform` as shown above
 
 
+## Terraform Configurations
+The terraform code contains:
+
+- A module that deploys GKE - Node pools, auto scaler, nodes and    workloads
+
+- A firewall that allows inbound traffic on ports `22`, `443` and `80`
+
+- State file saved on GCP bucket
+
+- Network configurations for VPC, subnets and cidr blocks
+
+- GCP Roles for pulling GCR registry
+
+- Terraform helm deployment
+
+
 ## Create Infrastructure and Deploy Helm Chart
 
 To create infrastructure on gcp using terraform
