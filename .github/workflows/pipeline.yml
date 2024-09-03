@@ -3,7 +3,7 @@ name: Build and Push Docker Image to GCR
 on:
   push:
     branches:
-      - main # or the branch you want to trigger the workflow
+      - uat # or the branch you want to trigger the workflow
 
 jobs:
   build-and-push:
